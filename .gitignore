@@ -1,4 +1,37 @@
+# Dependências do Node.js
 node_modules/
-.env
-dist/
+
+# Logs
 logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.test
+.env.production
+.env.local
+
+# Build (caso use TypeScript ou transpile arquivos)
+dist/
+build/
+out/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Cache e artefatos do editor
+.idea/
+.vscode/
+*.swp
+
+# Test coverage (caso use Jest ou outras ferramentas de testes)
+coverage/
+.nyc_output/
+
+# Docker (caso use Docker)
+docker-compose.override.yml
