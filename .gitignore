@@ -29,9 +29,9 @@ Thumbs.db
 .vscode/
 *.swp
 
-# Test coverage (caso use Jest ou outras ferramentas de testes)
+# Test coverage 
 coverage/
 .nyc_output/
 
-# Docker (caso use Docker)
+# Docker 
 docker-compose.override.yml
